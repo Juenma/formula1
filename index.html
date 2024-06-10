@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PASIÓN F1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<link rel="stylesheet" type="text/css" href="not1.html">
+<link rel="stylesheet" type="text/css" href="noti2.html">
+<link rel="stylesheet" type="text/css" href="noti3.html">
+<link rel="stylesheet" type="text/css" href="galeria.html">
+<link rel="stylesheet" type="text/css" href="index.html">
+<style>
+h1,h2,h3,h4,h5,h6, a {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+
+
+<body class="w3-light-grey">
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">INICIO</a>
+    <a href="#noticias" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NOTICIAS</a>
+    <a href="galeria.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">GALERÍA</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROXIMO GP</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More"> <i class=""></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+ 
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="clip.gif" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+
+ <!-- NOTICIA 1-->
+      <div id="noticias" class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>MAX VERSTAPPEN VOLVIÓ AL TRIUNFO EN EL GP DE CANADÁ</h3>
+          <h5>En una carrera cambiante el campeón se llevó la victoria</h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="maxcanada.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p>Max Verstappen volvió a la victoria con su Red Bull, consolidándose en la cima del campeonato de Fórmula 1. El piloto neerlandés de 26 años se impuso en el Gran Premio de Canadá, celebrado en el Autódromo Gilles Villeneuve, ubicado en la Isla de Notre Dame, en Montreal. Aunque el tricampeón mundial mostró su habilidad, también aprovechó la rápida labor de su equipo en una de las paradas en boxes y el retraso que sufrió Lando Norris con su McLaren en la misma instancia. El británico Norris terminó en segunda posición, seguido de su compatriota George Russell, con Mercedes.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><a href="not1.html" style="text-decoration: none;"><b>Leer más  </b></a> <span class="w3-tag w3-white"></span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="lewis.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>George <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+                <p>Great blog post! Following</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- NOTICIA 2 -->
+      <div id="noticias" class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>CHARLES LECLERC LO LOGRÓ ¡GANÓ EN MÓNACO!</h3>
+          <h5>El piloto de Ferrari pudo alcanzar el triunfo que tanto se le había negado</h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="charlesmonaco.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p>Finalmente, Charles Leclerc logró superar las decepciones de 2021 y 2022. Solo él sabe cuántas veces las frustraciones de esas dos carreras en Mónaco habrán invadido su mente. En ambas ocasiones, el piloto de Ferrari partió desde la pole, pero todo terminó en tristeza. La primera vez, ni siquiera pudo iniciar la carrera debido a un palier roto tras un accidente el sábado, que lo detuvo en la vuelta de formación. La segunda vez, una estrategia deficiente de su equipo lo dejó atascado en la cuarta posición. Pero finalmente llegó el día en que pudo cumplir su sueño de infancia: ganar en las calles de su ciudad natal, donde creció y asistía como espectador para ver la Fórmula 1. Esas amarguras quedaron atrás cuando ganó el GP de Mónaco, la octava carrera de 2024.--</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><a href="noti2.html" style="text-decoration: none;"><b>Leer más  </b></a> <span class="w3-tag w3-white"></span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="lewis.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>George <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+                <p>Great blog post! Following</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    
+     
+
+      <!-- NOTICIA 3 -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>LANDO NORRIS Y UN HISTÓRICO TRIUNFO EN MIAMI</h3>
+          <h5>El piloto Británico alcanzó su primer victoria en Fórmula 1<span class="w3-opacity"></span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="landomiami.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p>El triunfo fue para el británico Lando Norris, quien logró su primera victoria en la categoría. El piloto de McLaren, que ya había subido al podio en dos ocasiones esta temporada (tercero en Australia y segundo en China), partió desde la tercera posición. Durante la carrera, logró superar a los dos pilotos de Ferrari, Carlos Sainz y Charles Leclerc, quienes habían comenzado delante de él...</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><a href="noti3.html" style="text-decoration: none"><b>Leer más...  </b></a> <span class="w3-tag w3-white"></span></button></p>
+          <p class="w3-clear"></p>
+
+
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl_mountain.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Jane <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
+                <p>That was a great runway show! Thanks for everything.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/boy.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>John <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
+                <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl_hood.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Anja <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
+                <p>Cant wait for the runway to start!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="españa.png" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <a href="proximogp.html" style="text-decoration: none"><h4 style="text-align: center;">Próximo GP</h4></a>
+          <p>Fecha: Domingo 23 de Junio. </p>
+           <p>  Pista: Circuito de Barcelona - Catalunya.</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Reviví los mejores momentos</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <a href="https://www.youtube.com/watch?v=MTe12fH2xtQ" style="text-decoration: none;" target="_blank"><img src="vers.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Max Verstappen campeón 2021</span></a>
+            <br>
+            <span></span>
+          </li>
+          <li class="w3-padding-16">
+            <a href="https://www.youtube.com/watch?v=J2SCGA4G9eY" style="text-decoration: none;" target="_blank"><img src="georgebrasil.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Triunfo de Russell en Brasil</span></a>
+            <br>
+            <span></span>
+          </li>
+          <li class="w3-padding-16">
+            <a href="https://www.youtube.com/watch?v=x7ddnyNMl5s" style="text-decoration: none;" target="_blank"><img src="checotriunfo.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Primera victoria de Checo Perez</span></a>
+            <br>
+            <span></span>
+          </li>
+          <li class="w3-padding-16">
+             <a href="https://www.youtube.com/watch?v=9wiQqcKUahc" style="text-decoration: none;" target="_blank">
+            <img src="landomiami.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Lando Norris Miami GP 2024</span></a>
+            <br>
+            <span></span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+      <!-- Advertising -->
+   
+      <hr>
+
+     
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribite!</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Registrá tu e-mail para ser notificado con las ultimas noticias.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Ingrsá tu e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribite</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  
+</div>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
